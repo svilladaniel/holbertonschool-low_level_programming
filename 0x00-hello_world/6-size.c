@@ -8,8 +8,8 @@ int main(void)
 {
 	char c;
 	int i;
-	long int l;
-	long long int e;
+	long l;
+	long long e;
 	float f;
 
 	printf("Size of a char is: %lu. byte(s)\n", (unsigned long)sizeof(c));
