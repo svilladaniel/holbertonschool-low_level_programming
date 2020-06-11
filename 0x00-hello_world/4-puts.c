@@ -1,6 +1,7 @@
-#include <stdio.h>
 /**
- * 4-puts.c - rints exactly "Programming is like building a multilingual puzzle, followed by a new line*/
+ * 4-puts.c - print "Programming is like
+*/
+#include <stdio.h>
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
