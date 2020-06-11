@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	long int l;
 	long long int e;
-	floa f;
+	float f;
 
 	printf("Size of an int is: %lu.\n", (unsigned long)sizeof(c));
 	printf("Size of an double is: %lu.\n", (unsigned long)sizeof(i));
