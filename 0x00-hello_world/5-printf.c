@@ -1,5 +1,7 @@
 /**
- * 5-printf.c - prints exactly atext
+ * main - prints exactly atext
+ * @void: no retorna nada
+ * Return: 0
  */
 #include <stdio.h>
 int main(void)
