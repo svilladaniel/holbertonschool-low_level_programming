@@ -1,6 +1,8 @@
 /**
- * 4-puts.c - print "Programming is like
-*/
+ * main - print "Programming is like
+ * @void: no retorna nada
+ * Return: 0
+ */
 #include <stdio.h>
 int main(void)
 {
