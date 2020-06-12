@@ -13,12 +13,12 @@ int main(void)
 
 	for (a = 'a' ; a <= 'z' ; ++a)
 	{
-		for (b = 'A' ; b <= 'Z' ; ++b)
-		{
-			putchar(a);
-			putchar(b);
-			putchar(\n);
-		}
+		putchar(a);
+	}
+	for (b = 'A' ; b <= 'Z' ; ++b)
+	{
+		putchar(b);
+		putchar(\n);
 	}
 	return (0);
 }
