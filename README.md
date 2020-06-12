@@ -1,1 +1,1 @@
-This repository contains all the proyects of C programming languaje
+This directory contains all the c projects
