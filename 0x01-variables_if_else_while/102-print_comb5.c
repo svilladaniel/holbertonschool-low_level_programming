@@ -1,25 +1,23 @@
 #include <stdio.h>
-
 /**
- * main - prints the numbers from 000 to 999
- * @void: it doesnt mean anything
- * Description: prints the numbers from 000 to 999
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int a;
-	int b;
-	int c;
-	int d;
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int d = 1;
 
-	for (a = 0 ; a < 10 ; a++)
+	while (a < 10)
 	{
-		for (b = 0 ; b < 9 ; b++)
+		while (b < 9)
 		{
-			for (c = 0 ; c < 10 ; c++)
+			while (c < 10)
 			{
-				for (d = 1 ; d < 10 ; d++)
+				while (d < 10)
 				{
 					if (a != 0 || b != 1 || c != 0 || d != 0)
 					{
@@ -28,16 +26,24 @@ int main(void)
 						putchar(' ');
 						putchar(c + '0');
 						putchar(d + '0');
-						if (a != 9 || b != 8 || c != 9 || d != 9)
-						{
-							putchar(',');
-							putchar(' ');
-						}
 					}
+					if (a != 9 || b != 8 || c != 9 || d != 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					d++;
 				}
+				c++;
+				d = 0;
 			}
+			b++;
+			c = 0;
 		}
+		a++;
+		b = 0;
 	}
+	a = 0;
 	putchar('\n');
 	return (0);
 }
