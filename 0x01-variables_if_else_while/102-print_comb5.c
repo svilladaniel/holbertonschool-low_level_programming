@@ -21,15 +21,18 @@ int main(void)
 			{
 				for (d = 1 ; d < 10 ; d++)
 				{
-					putchar(a + '0');
-					putchar(b + '0');
-					putchar(' ');
-					putchar(c + '0');
-					putchar(d + '0');
-					if (a != 9 || b != 8 || c != 9 || d != 9)
+					if (a != 0 || b != 1 || c != 0 || d != 0)
 					{
-						putchar(',');
+						putchar(a + '0');
+						putchar(b + '0');
 						putchar(' ');
+						putchar(c + '0');
+						putchar(d + '0');
+						if (a != 9 || b != 8 || c != 9 || d != 9)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
