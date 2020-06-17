@@ -1,5 +1,11 @@
 #include "holberton.h"
 
+/**
+ * print_sign - return a=1 if + a=0 if 0 and a=-1 if -
+ * @n: input number
+ * Description: print if the input is +, zero or -
+ * Return: return a=1 if + a=0 if 0 and a=-1 if -
+ */
 
 int print_sign(int n)
 {
