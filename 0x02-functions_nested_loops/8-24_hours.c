@@ -6,6 +6,7 @@
  * Description: prints hours and minutes of the day
  * Return: anything
  */
+
 void jack_bauer(void)
 {
 	int h;
@@ -22,12 +23,10 @@ void jack_bauer(void)
 			_putchar('0' + k);
 			_putchar(':');
 			k = m / 10;
-		        _putchar('0' + k);
+			_putchar('0' + k);
 			k = m % 10;
 			_putchar('0' + k);
 			_putchar('\n');
-			
 		}
 	}
 }
-			
