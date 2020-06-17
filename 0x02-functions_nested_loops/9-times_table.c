@@ -1,12 +1,18 @@
 #include "holberton.h"
 
+/**
+ * times_table - prints the 9 times table
+ * @void: this function doesnt recieve anything
+ * Description: prints the 9 times table
+ * Return: this function doesnt return anything
+ */
 
 void times_table(void)
 {
 	int f;
 	int c;
 	int d;
-	
+
 	for (f = 0 ; f <= 9 ; f++)
 	{
 		for (c = 0 ; c <= 9 ; c++)
