@@ -22,16 +22,21 @@ void times_table(void)
 			{
 				_putchar((d / 10) + '0');
 				_putchar((d % 10) + '0');
+				if (c != 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 			else if (d <= 9)
 			{
+				_putchar(' ');
 				_putchar(d + '0');
-				_putchar(' ');
-			}
-			if (c != 9)
-			{
-				_putchar(',');
-				_putchar(' ');
+				if (c != 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 		}
 		_putchar('\n');
