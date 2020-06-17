@@ -1,5 +1,11 @@
 #include "holberton.h"
 
+/**
+ * jack_bauer - Short description, single line
+ * @void: no parameters
+ * Description: prints hours and minutes of the day
+ * Return: anything
+ */
 void jack_bauer(void)
 {
 	int h;
