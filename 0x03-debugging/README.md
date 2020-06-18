@@ -1,0 +1,1 @@
+This directory contains the files of project 0x03-debugging
