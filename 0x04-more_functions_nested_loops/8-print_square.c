@@ -1,13 +1,11 @@
 #include "holberton.h"
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * print_square - prints a square, followed by a new line
+ * @size: size of the square
+ * Description: prints a square, followed by a new line
+ * Return: doesnt return anything
+ */
 
 void print_square(int size)
 {
@@ -20,9 +18,9 @@ void print_square(int size)
 	}
 	else
 	{
-		for (a = 0; a <= size ; a++)
+		for (a = 0; a < size ; a++)
 		{
-			for (b = 0 ; b <= size ; b++)
+			for (b = 0 ; b < size ; b++)
 			{
 				_putchar('#');
 			}
