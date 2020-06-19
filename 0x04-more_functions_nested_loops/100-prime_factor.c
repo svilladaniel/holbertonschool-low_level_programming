@@ -13,7 +13,7 @@ int main(void)
 	long int b;
 	long int c;
 
-	a = 1231952;
+	a = 612852475143;
 	b = 2;
 	while (a != 0)
 	{
