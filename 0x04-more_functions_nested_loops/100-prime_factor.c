@@ -3,7 +3,7 @@
 /**
  * main - finds and prints the largest prime factor
  * @void: it doesnt return anything
- * Description: finds and prints the largest prime factor 
+ * Description: finds and prints the largest prime factor
  * Return: doesnt return anything
  */
 
@@ -35,6 +35,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
-	
-	
