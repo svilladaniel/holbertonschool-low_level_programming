@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
  * main - finds and prints the largest prime factor
@@ -17,7 +17,7 @@ int main(void)
 	b = 2;
 	while (a != 0)
 	{
-		if ((n % b) != 0)
+		if ((a % b) != 0)
 		{
 			b = b + 1;
 		}
