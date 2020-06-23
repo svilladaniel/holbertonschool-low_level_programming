@@ -1,0 +1,1 @@
+This directory contains the files of 0x05-pointers_arrays_strings project
