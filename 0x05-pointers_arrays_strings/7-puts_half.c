@@ -1,13 +1,9 @@
 #include "holberton.h"
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * puts_half - prints half of a string
+ * @str: is a string
+ */
 
 void puts_half(char *str)
 {
@@ -16,7 +12,7 @@ void puts_half(char *str)
 	for (a = 0 ; str[a] != '\0' ; a++)
 	{
 	}
-	if ( a % 2 != 0)
+	if (a % 2 != 0)
 	{
 		for (a = (a - 1) / 2 ; str[a] != '\0' ; a++)
 		{
