@@ -1,13 +1,12 @@
 #include "holberton.h"
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * _strncat - Concatenate two strings
+ * @dest: pointer so string
+ * @src: pointer to string
+ * @n: lenght
+ * Return: the pointer to the concatenation
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
@@ -16,10 +15,9 @@ char *_strncat(char *dest, char *src, int n)
 	for (a = 0 ; dest[a] != '\0' ; a++)
 	{
 	}
-	for (b = 0 ; b < n && src[b] != '\0' ; b++)
+	for (b = 0 ; b < n && src[b] != '\0' ; a++,  b++)
 	{
 		dest[a] = src[b];
-		a++;
 	}
 	return (dest);
 }
