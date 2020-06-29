@@ -1,7 +1,8 @@
-#include "holberton.h"
+
+ #include "holberton.h"
 
 /**
- * function_name - Short description, single line
+ * _strncpy - copies a string
  * @dest: destination pointer
  * @src: pointer to the string
  * @n: lenght of the string
@@ -12,15 +13,13 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int a;
 
-	for (a = 0 ; dest[a] != '\0' ; ++a)
-	{
-	}
 	for (a = 0 ; a < n && src[a] != '\0' ; a++)
 	{
 		dest[a] = src[a];
 	}
-	dest[a] = '\0';
+	for ( ; a < n; a++)
+	{
+		dest[a] = '\0';
+	}
 	return (dest);
 }
-
-	
