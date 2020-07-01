@@ -1,13 +1,9 @@
 #include "holberton.h"
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * _puts_recursion - prints a string, followed by a new line
+ * @s: a pointer to a char string
+ */
 
 void _puts_recursion(char *s)
 {
@@ -17,5 +13,8 @@ void _puts_recursion(char *s)
 		s++;
 		_puts_recursion(s);
 	}
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
 }
