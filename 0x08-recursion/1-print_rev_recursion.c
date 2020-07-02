@@ -1,20 +1,15 @@
 #include "holberton.h"
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * _print_rev_recursion - prints a string in reverse
+ * @s: a pointer to char
+ */
 
 void _print_rev_recursion(char *s)
-{	
+{
 	if (*s != '\0')
 	{
-		s++;
-		_print_rev_recursion(s);
+		_print_rev_recursion(s + 1);
 		_putchar(*s);
 	}
-}		
+}
