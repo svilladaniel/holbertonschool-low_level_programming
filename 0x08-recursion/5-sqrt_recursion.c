@@ -1,22 +1,35 @@
 #include "holberton.h"
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * _sqrt_recursion - return the scuare root of a number
+ * @n: the base
+ * Return: square root of a number or -1
+ */
 
 int _sqrt_recursion(int n)
 {
-	int g;
-	
-	if (n == 0 || n == 1)
+	int i = 0;
+
+	return (find_sg(n, i));
+}
+/**
+ * find_sg - Short description, single line
+ * @n: is an integer
+ * @i: the base
+ * Return: square root of a number or -1
+ */
+int find_sg(int n, int i)
+{
+	if (i * i > n)
 	{
-		return (n);
+		return (-1);
 	}
-	
-	
-	
+	else if (i * i == n)
+	{
+		return (i);
+	}
+	else
+	{
+		return (find_sg(n, i + 1));
+	}
+}
