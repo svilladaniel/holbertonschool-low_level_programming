@@ -1,3 +1,12 @@
+#ifndef _HOLBERTON_H_
+#define _HOLBERTON_H_
+
+/*
+ * Structs, enums and unions definitions
+ * Typedefs
+ * Function prototypes
+ */
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -19,3 +28,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 int _strncmp(char *b, char *c, unsigned int n);
+#endif /* _SAMPLE_HEADER_H_ */
