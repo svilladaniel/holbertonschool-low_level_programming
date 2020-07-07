@@ -1,0 +1,1 @@
+This directory contains the 0x09-static_libraries project files
