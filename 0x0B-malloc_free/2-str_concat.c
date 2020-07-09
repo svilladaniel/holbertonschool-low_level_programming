@@ -3,13 +3,11 @@
 #include <stdlib.h>
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * str_concat - concatenates two strings
+ * @s1 : a string
+ * @s2 : a string
+ * Return: a pointer to the new string
+ */
 
 char *str_concat(char *s1, char *s2)
 {
@@ -46,4 +44,3 @@ char *str_concat(char *s1, char *s2)
 	a[k] = '\0';
 	return (a);
 }
-		
