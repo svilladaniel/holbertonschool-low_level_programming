@@ -7,7 +7,7 @@
  * @size: number of characters
  * @c: characters
  * Return: a pointer to the array, or NULL if it fails
- * Return: a pointer to the array
+ * a pointer to the array
  */
 
 char *create_array(unsigned int size, char c)
@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	for(b = 0 ; b < size ; b++)
+	for (b = 0 ; b < size ; b++)
 	{
 		a[b] = c;
 	}
