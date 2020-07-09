@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * function_name - Short description, single line
@@ -11,21 +9,17 @@
 * Return: Description of the returned value
 */
 
-char *create_array(unsigned int size, char c)
+char *_strncat(char *dest, char *src, int n)
 {
-	char *a;
-	unsigned int i;
+	int a, b;
 
-	a = malloc(sizeof(char) * size);
-	if (a == NULL || a == 0)
+	for (a = 0 ; dest[a] != '\0' ; a++)
 	{
-		return(NULL);
 	}
-	for (i = 0 ; i < size ; i++)
+	for (b = 0 ; a < n && src[b] != '\0' ; b++)
 	{
-		a[i] = c;
+		dest[a] = src[b];
+		a++;
 	}
-	a[i] = '\0';
-	return (a);
+	return (dest);
 }
-	

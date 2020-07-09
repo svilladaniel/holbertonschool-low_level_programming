@@ -1,0 +1,45 @@
+#include "holberton.h"
+/**
+ * is_palindrome - return 1 if palindrome 0 otherwhise
+ * @s: a pointer to string
+ * Return: 1 if palindrome 0 if not
+ */
+int is_palindrome(char *s)
+{
+	int lenght;
+
+	lenght = _strlen (s);
+	return (find_pal(s, 0, lenght - 1));
+}
+/**
+ * _strlen - return the lenght of a string
+ * @s: a pointer to string
+ * Return: a lenght of a string
+ */
+int _strlen(char *s)
+{
+	if (*s == '\0')
+	{
+		return (0);
+	}
+	return (1 + _strlen((s + 1)));
+}
+/**
+ * find_pal - return 1 if palindrome 0 otherwhise
+ * @s: pointer to int
+ * @start: where string start
+ * @end: where the string end
+ * Return: 1 if palindrome 0 if not
+ */
+int find_pal(char *s, int start, int end)
+{
+	if (*(s + start) !=  *(s + end))
+	{
+		return (0);
+	}
+	if (start >= end)
+	{
+		return (1);
+	}
+	return (find_pal(s, start + 1, end - 1));
+}

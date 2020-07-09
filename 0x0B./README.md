@@ -1,1 +1,0 @@
-This directory contains the 0x0B. C - malloc, free files
