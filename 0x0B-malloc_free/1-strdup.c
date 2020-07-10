@@ -22,14 +22,10 @@ char *_strdup(char *str)
 	for (c = 0 ; str[c] != '\0' ; c++)
 	{
 	}
-	if (c == 0)
-	{
-		return (NULL);
-	}
 	a = malloc(sizeof(char) * c + 1);
 	if (a == NULL)
 	{
-		free (a);
+		free(a);
 		return (NULL);
 	}
 	for (b = 0; b < c ; b++)
