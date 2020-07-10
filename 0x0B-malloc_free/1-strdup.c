@@ -22,15 +22,20 @@ char *_strdup(char *str)
 	for (c = 0 ; str[c] != '\0' ; c++)
 	{
 	}
-	a = (char *)malloc(sizeof(char) * (c + 1));
+	if (c == 0)
+	{
+		return (NULL);
+	}
+	a = malloc(sizeof(char) * c + 1);
+	if (a == NULL)
+	{
+		free (a);
+		return (NULL);
+	}
 	for (b = 0; b < c ; b++)
 	{
-		for (b = 0 ; str[b] != '\0' ; b++)
-		{
-			a[b] = str[b];
-		}
+		a[b] = str[b];
 	}
 	a[b] = '\0';
 	return (a);
-	free(a);
 }
