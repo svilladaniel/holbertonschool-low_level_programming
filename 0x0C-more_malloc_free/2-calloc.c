@@ -3,13 +3,11 @@
 #include <stdlib.h>
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * _calloc -  allocates memory for an array
+ * @nmemb: number of elemnts
+ * @size: size of the element
+ * Return: a pointer to de allocated memory
+ */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
