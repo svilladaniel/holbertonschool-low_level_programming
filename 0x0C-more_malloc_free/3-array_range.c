@@ -14,8 +14,16 @@ int *array_range(int min, int max)
 	int *buffer;
 	int b, i;
 
+	if (min > max)
+	{
+		return (NULL);
+	}
 	b = max - min + 1;
 	buffer = malloc(sizeof(int) * b);
+	if (buffer == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0 ; i < b ; i++, min++)
 	{
 		buffer[i] = min;
