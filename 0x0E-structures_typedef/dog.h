@@ -1,19 +1,15 @@
 #ifndef _DOG_H_
 #define _DOG_H_
 
-/*
- * Structs, enums and unions definitions
- * Typedefs
- * Function prototypes
- */
-
 /**
  * struct dog - dog structure
  * @name: a pointer to a char
  * @age: a float variable
  * @owner: a pointer to a char
  */
-struct dog {
+
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
