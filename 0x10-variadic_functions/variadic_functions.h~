@@ -1,0 +1,12 @@
+#ifndef _VARIADIC_FUNCTIONS_H
+#define _VARIADIC_FUNCTIONS_H
+
+/*
+ * Structs, enums and unions definitions
+ * Typedefs
+ * Function prototypes
+ */
+
+int _putchar(char c);
+
+#endif /*_VARIADIC_FUNCTIONS_H */
