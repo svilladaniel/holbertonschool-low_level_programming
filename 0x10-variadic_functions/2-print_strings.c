@@ -4,13 +4,10 @@
 #include <stdarg.h>
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
-*/
+ * print_strings - prints strings, followed by a new line.
+ * @separator: separator of the strings
+ * @n: number of arguments
+ */
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -24,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		a = va_arg(arguments, char *);
 		if (a == NULL)
 		{
-			printf ( "(nill)");
+			printf("(nill)");
 		}
 		else
 		{
@@ -37,5 +34,3 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 	printf("\n");
 }
-
-	
