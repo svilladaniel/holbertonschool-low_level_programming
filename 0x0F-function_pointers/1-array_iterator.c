@@ -9,13 +9,13 @@
  * @action: is a function
  */
 
-void array_iterator(int *array, unsigned int size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i;
+	size_t i;
 	
 	for(i = 0; i < size ; i++)
 	{
-		if (array[i] != NULL && f != NULL)	
+		if (array[i] != NULL && function != NULL)	
 			(*action)(array[i]);
 	}
 }
