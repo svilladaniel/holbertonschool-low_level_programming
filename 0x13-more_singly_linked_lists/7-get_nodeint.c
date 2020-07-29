@@ -1,5 +1,11 @@
 #include "lists.h"
 
+/**
+ * get_nodeint_at_index - returns the nth node
+ * @head: head of a node.
+ * @index: number of the node to get
+ * Return: head the node to get
+ */
 
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
