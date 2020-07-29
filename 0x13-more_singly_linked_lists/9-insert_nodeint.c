@@ -1,9 +1,11 @@
 #include "lists.h"
 
 /**
- * print_listint - Prints all elements of a list_t list.
- * @h: head pointer.
- * Return: Numbers of nodes.
+ * insert_nodeint_at_index - inserts a new node at a given position
+ * @head: head pointer.
+ * @idx: position to add a node.
+ * @n: data of the node.
+ * Return: adress of node.
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
@@ -11,7 +13,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	listint_t *new_node, *aux;
 	unsigned int b;
 
-	if(head == NULL)
+	if (head == NULL)
 		return (NULL);
 	new_node = malloc(sizeof(listint_t));
 	if (new_node == NULL)
@@ -35,5 +37,5 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 	new_node->next = aux->next;
 	aux->next = new_node;
-	return(new_node);
+	return (new_node);
 }
