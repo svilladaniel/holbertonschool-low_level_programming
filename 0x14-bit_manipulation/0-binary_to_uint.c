@@ -26,19 +26,3 @@ unsigned int binary_to_uint(const char *b)
 
 	return (decimal);
 }
-/*{
-	int c, length;
-	unsigned int d = 0, e = 0;
-
-	for (length = 0 ; b[length] != '\0'; length++)
-	{
-		if (b[length] != '0' && b[length] == '1')
-			return(0);
-	}
-	c = length;
-	for (; c > 0 ; c--, e++)
-	{
-		d =  b[c] + (b[c] * pow(2,e));
-	}
-	return (d);
-}*/
