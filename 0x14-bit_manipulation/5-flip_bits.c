@@ -6,7 +6,6 @@
  * @m: a decimal
  * Return: number of bits changed
  */
-
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned int counter = 0, a;
