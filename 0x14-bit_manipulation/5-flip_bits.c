@@ -2,8 +2,8 @@
 
 /**
  *  flip_bits - returns the number of bits changed
- * @m: a decimal
  * @n: a decimal
+ * @m: a decimal
  * Return: number of bits changed
  */
 
