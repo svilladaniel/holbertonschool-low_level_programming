@@ -24,10 +24,10 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	for (b = 0 ; b < (index - 1) ; b++)
 	{
 		aux = aux->next;
-		if (aux == NULL)
-		{
-			return (-1);
-		}
+	}
+	if (aux == NULL)
+	{
+		return (-1);
 	}
 	if (aux->next == NULL)
 	{
