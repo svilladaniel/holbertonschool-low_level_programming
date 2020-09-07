@@ -1,1 +1,1 @@
-This directiory contains the 0x18-dynamic_libraries project files
+This directory contains the 0x18-dynamic_libraries project files
