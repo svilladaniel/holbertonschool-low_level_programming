@@ -2,7 +2,7 @@
 
 These are the projects developed in low-level languages, mostly c.
 
-<img href
+<img href="https://www.tuannguyen.tech/wp-content/uploads/2019/08/illustration-of-binary-code.jpeg">
 
 0x00-hello_world
 
