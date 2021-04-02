@@ -1,1 +1,0 @@
-This directory contains all the files of the poyecto 0x00. C - Hello, World
