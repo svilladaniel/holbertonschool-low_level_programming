@@ -1,0 +1,1 @@
+This folder contains Hello world c projects. Introduction to c.
